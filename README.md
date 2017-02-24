@@ -33,12 +33,13 @@ OR
   - Module 1: 
 
 ##Sandbox
-The sandbox for messing around with this stuff is defined below. All machines are RHEL7, so familiarity with RHEL7 is still really important to be able to then translate that into ansible-eze. DO NOT RUN PLAYS AGAINST THE CONTROL NODE!!! This is my daily driver and if it gets jacked up, I'm going to be :rage:
+This section is a TODO- the goal is to eventually include a vagrantfile in this repo that will spin up a sandbox for testing. 
+{The sandbox for messing around with this stuff is defined below.
 - Control Node: 
 - Target 1: 
-- Target 2: 
+- Target 2: }
 
 ##Reference Material
   - [Ansible Documentation Site](http://docs.ansible.com/ansible/): The root site for all Ansible documentation.
   - [Ansible Modules Documentation](http://docs.ansible.com/ansible/modules_by_category.html): Plan to spend a lot of time here. This area of the site has detailed documentation for every Ansible module at your disposal.
-  - [Ansible Galaxy](https://galaxy.ansible.com/): Once you start messing around with roles, this is basically a place where Ansible users can share their roles. So, if you want to deploy a basic web server built on RHEL and Apache, there is probably some other user that has created a role for that and shared it through Ansible Galaxy. I primer on Galaxy can be [found here](http://docs.ansible.com/ansible/galaxy.html).
+  - [Ansible Galaxy](https://galaxy.ansible.com/): Once you start messing around with roles, this is basically a place where Ansible users can share their roles. So, if you want to deploy a basic web server built on RHEL and Apache, there is probably some other user that has created a role for that and shared it through Ansible Galaxy. A primer on Galaxy can be [found here](http://docs.ansible.com/ansible/galaxy.html).
