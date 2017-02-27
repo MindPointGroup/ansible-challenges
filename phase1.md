@@ -9,6 +9,7 @@
 
 **Where to Go From Here**: Try running the command against multiple hosts at once. Try grepping through the results to see if you can find details about the remote host(s) such as the OS distribution, version, network interfaces, etc.
 
+
 ##Module 2: Getting to know ansible-playbook
 **Goal**: Use ansible-playbook to run a very simple playbook (p1m2a.yml) against a *single* host.
 
@@ -16,6 +17,7 @@
   - Not having an inventory specified when you run the playbook.
 
 **Where to Go From Here**: Try running p1m2b.yml against the same host. This file is purposely designed to include mistakes, which you will need to fix in order to get it to run successfully.
+
 
 ##Module 3: Using ansible-vault
 **Goal**: Carry out the following tasks:
