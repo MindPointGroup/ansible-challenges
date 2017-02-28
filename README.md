@@ -34,10 +34,10 @@ OR
 
 ##Sandbox
 This repo includes a Vagrantfile for spinning up machines to use for testing with these challenges. These are defined below.
- Target | Distro | Version | Box   
-:-------|:-------|--------:|-----
-host1   | CentOS |  7.1    | bento/centos-7.1
-host2   | Ubuntu | 16.04   | bento/ubuntu-16.04
+ Target | Distro | Version | Box                 | 
+:-------|:-------|--------:|---------------------|
+host1   | CentOS |  7.1    | bento/centos-7.1    |
+host2   | Ubuntu | 16.04   | bento/ubuntu-16.04  |
 
 In order to use this Vagrantfile for these challenges, make sure you have a virtualization provider such as VMware (Fusion or Workstation), Virtualbox, or another [listed on the vagrant site](https://www.vagrantup.com/docs/providers/). [Install vagrant](https://www.vagrantup.com/docs/installation/). Then run `vagrant up` from this directory. After a moment, the boxes should be up and running. Then run `vagrant ssh-config` to get the SSH config options you need to be able to connect to the boxes. Copying the two configuration blocks into your ~/.ssh/config should let you connect to the boxes using `ssh host1` or `ssh host2` unless this conflicts with entries already in your config file.
 
