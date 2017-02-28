@@ -50,6 +50,10 @@ node.vm.provider "virtualbox" do |vb|
 end
 ```
 
+##License
+
+MIT
+
 ##Reference Material
   - [Ansible Documentation Site](http://docs.ansible.com/ansible/): The root site for all Ansible documentation.
   - [Ansible Modules Documentation](http://docs.ansible.com/ansible/modules_by_category.html): Plan to spend a lot of time here. This area of the site has detailed documentation for every Ansible module at your disposal.
