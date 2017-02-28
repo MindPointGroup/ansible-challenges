@@ -33,13 +33,22 @@ OR
   - Module 1: 
 
 ##Sandbox
-This section is a TODO- the goal is to eventually include a vagrantfile in this repo that will spin up a sandbox for testing. 
-{The sandbox for messing around with this stuff is defined below.
-- Control Node: 
-- Target 1: 
-- Target 2: }
+This repo includes a Vagrantfile for spinning up machines to use for testing with these challenges. These are defined below.
+ Target | Distro | Version | Box   
+:-------|:-------|--------:|-----
+host1   | CentOS |  7.1    | bento/centos-7.1
+host2   | Ubuntu | 16.04   | bento/ubuntu-16.04
+
+In order to use this Vagrantfile for these challenges, make sure you have a virtualization provider such as VMware (Fusion or Workstation), Virtualbox, or another [listed on the vagrant site](https://www.vagrantup.com/docs/providers/). [Install vagrant](https://www.vagrantup.com/docs/installation/). Then run `vagrant up` from this directory. After a moment, the boxes should be up and running. Then run `vagrant ssh-config` to get the SSH config options you need to be able to connect to the boxes. Copying the two configuration blocks into your ~/.ssh/config should let you connect to the boxes using `ssh host1` or `ssh host2` unless this conflicts with entries already in your config file.
+
+Lastly, please note that this Vagrantfile specifies VMware Fusion as the provider, so if you use a different one you need to make that small change. For Virtualbox you would simply change the line `node.vm.provider "vmware_fusion" do |vb|` to `node.vm.provider "virtualbox" do |vb|` and then adjust the customization lines. The whole block would look like this:
+> node.vm.provider "virtualbox" do |vb|
+>   vb.memory = 1024
+>   vb.cpus = 2
+> end
 
 ##Reference Material
   - [Ansible Documentation Site](http://docs.ansible.com/ansible/): The root site for all Ansible documentation.
   - [Ansible Modules Documentation](http://docs.ansible.com/ansible/modules_by_category.html): Plan to spend a lot of time here. This area of the site has detailed documentation for every Ansible module at your disposal.
   - [Ansible Galaxy](https://galaxy.ansible.com/): Once you start messing around with roles, this is basically a place where Ansible users can share their roles. So, if you want to deploy a basic web server built on RHEL and Apache, there is probably some other user that has created a role for that and shared it through Ansible Galaxy. A primer on Galaxy can be [found here](http://docs.ansible.com/ansible/galaxy.html).
+  - [Vagrant Documenation Site](https://www.vagrantup.com/docs/): The site for all Vagrant documentation.
