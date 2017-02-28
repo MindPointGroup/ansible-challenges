@@ -4,14 +4,14 @@ targets = [
     {
         :hostname => "host1",
         :box => "bento/centos-7.1",
-        :ram => 512,
-        :cpu => 1
+        :ram => 1024,
+        :cpu => 2
     },
     {
         :hostname => "host2",
         :box => "bento/ubuntu-16.04",
-        :ram => 512,
-        :cpu => 1
+        :ram => 1024,
+        :cpu => 2
     }
 ]
 
