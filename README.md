@@ -15,22 +15,30 @@ OR
 - `git clone https://github.com/matts-mpg/ansible-challenges.git`
  
 
-##Phases
+##Learning Path
 - Phase 1: Basic Stuff
-  - Module 1: Connect to a remote host and collect facts using a one-liner.
-  - Module 2: Create the simplest ansible config file possible to avoid problems from here on out.
-  - Module 3: Connect to a remote host and collect facts using a simple task file/play.
-  - Module 4: Install packages on a remote host.
-- Phase 2: Very Simple, Non-threatening Playbooks
-  - Module 1: 
-  - Module 2: 
+  - Module 1: Get to know the ansible command.
+  - Module 2: Get to know the ansible-playbook command.
+  - Module 3: Get to know the ansible-vault command.
+  - Module 4: Important stuff in .ansible.cfg.            !TO DO!
+  - Module 5: Connect to a remote host and collect facts using a simple task file/play.       !TO DO!
+  - Module 6: Install packages on a remote host.            !TO DO!
+- Phase 2: Very Simple, Non-threatening Playbooks            !TO DO!
+  - Module 1:             !TO DO!
+  - Module 2:             !TO DO!
 - Phase 3: Learning Variables
-  - Module 1: Using group_vars.
-  - Module 2: Using host_vars.
-  - Module 3: Where else can I put vars?
-  - Module 4: Using vaulted vars.
-- Phase 4: Working With Roles
+  - Module 1: Using group_vars.            !TO DO!
+  - Module 2: Using host_vars.            !TO DO!
+  - Module 3: Where else can I put vars?      !TO DO!
+  - Module 4: Using vaulted vars.            !TO DO!
+- Phase 4: Working With Roles            !TO DO!
   - Module 1: 
+- Phase 5: Troubleshooting
+  - Module 1: That's a Head Scratcher       !TO DO!
+  - Module 2: Bang Head Here            !TO DO!
+  - Module 3: What the . . . What??            !TO DO!
+  - Module 4: Time for Whisky            !TO DO!
+  - Module 5: Rage Quit!            !TO DO!
 
 ##Sandbox
 This repo includes a Vagrantfile for spinning up machines to use for testing with these challenges. These are defined below.

@@ -31,3 +31,12 @@
 **What You Will Learn**: Get familiar with ansible-vault as it will allow you to incorporate files with sensitive data into your playbooks while keeping that data protected.
 
 **Where to Go From Here**: In later phases/modules, we will use ansible-vault to create a file with variables representing passwords, and include them in playbooks.
+
+<br>
+##Module 4: The .ansible.cfg file
+**Goal**: Create the simplest ansible config file possible to avoid problems from here on out.
+
+**What You Will Learn**: Understand some key things about .ansible.cfg without getting bogged down understanding 200 different knobs and levers.
+
+**Where to Go From Here**: Once you understand the basics of this file, you can use it later as necessary.
+
