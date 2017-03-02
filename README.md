@@ -20,25 +20,25 @@ OR
   - Module 1: Get to know the ansible command.  :white_check_mark:
   - Module 2: Get to know the ansible-playbook command.  :x:
   - Module 3: Get to know the ansible-vault command.  :white_check_mark:
-  - Module 4: Important stuff in .ansible.cfg.            !TO DO!
-  - Module 5: Connect to a remote host and collect facts using a simple task file/play.       !TO DO!
-  - Module 6: Install packages on a remote host.            !TO DO!
-- Phase 2: Very Simple, Non-threatening Playbooks            !TO DO!
-  - Module 1:             !TO DO!
-  - Module 2:             !TO DO!
+  - Module 4: Important stuff in .ansible.cfg.  :x:
+  - Module 5: Connect to a remote host and collect facts using a simple task file/play.  :x:
+  - Module 6: Install packages on a remote host.  :x:
+- Phase 2: Very Simple, Non-threatening Playbooks
+  - Module 1:  :x:
+  - Module 2:  :x:
 - Phase 3: Learning Variables
-  - Module 1: Using group_vars.            !TO DO!
-  - Module 2: Using host_vars.            !TO DO!
-  - Module 3: Where else can I put vars?      !TO DO!
-  - Module 4: Using vaulted vars.            !TO DO!
-- Phase 4: Working With Roles            !TO DO!
-  - Module 1: 
+  - Module 1: Using group_vars.  :x:
+  - Module 2: Using host_vars.  :x:
+  - Module 3: Where else can I put vars?  :x:
+  - Module 4: Using vaulted vars.  :x:
+- Phase 4: Working With Roles
+  - Module 1:   :x:
 - Phase 5: Troubleshooting
-  - Module 1: That's a Head Scratcher       !TO DO!
-  - Module 2: Bang Head Here            !TO DO!
-  - Module 3: What the . . . What??            !TO DO!
-  - Module 4: Time for Whisky            !TO DO!
-  - Module 5: Rage Quit!            !TO DO!
+  - Module 1: That's a Head Scratcher  :x:
+  - Module 2: Bang Head Here   :x:
+  - Module 3: What the . . . What??   :x:
+  - Module 4: Time for Whisky  :x:
+  - Module 5: Rage Quit!  :x:
 
 ##Sandbox
 This repo includes a Vagrantfile for spinning up machines to use for testing with these challenges. These are defined below.
