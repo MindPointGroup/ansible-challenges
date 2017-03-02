@@ -16,6 +16,8 @@ OR
  
 
 ##Learning Path
+Not Done-  :x:
+Complete-  :white_check_mark:
 - Phase 1: Basic Stuff
   - Module 1: Get to know the ansible command.  :white_check_mark:
   - Module 2: Get to know the ansible-playbook command.  :x:
