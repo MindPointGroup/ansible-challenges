@@ -17,9 +17,9 @@ OR
 
 ##Learning Path
 - Phase 1: Basic Stuff
-  - Module 1: Get to know the ansible command.
-  - Module 2: Get to know the ansible-playbook command.
-  - Module 3: Get to know the ansible-vault command.
+  - Module 1: Get to know the ansible command.  :white_check_mark:
+  - Module 2: Get to know the ansible-playbook command.  :x:
+  - Module 3: Get to know the ansible-vault command.  :white_check_mark:
   - Module 4: Important stuff in .ansible.cfg.            !TO DO!
   - Module 5: Connect to a remote host and collect facts using a simple task file/play.       !TO DO!
   - Module 6: Install packages on a remote host.            !TO DO!
