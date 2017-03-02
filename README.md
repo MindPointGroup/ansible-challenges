@@ -59,3 +59,4 @@ MIT
   - [Ansible Modules Documentation](http://docs.ansible.com/ansible/modules_by_category.html): Plan to spend a lot of time here. This area of the site has detailed documentation for every Ansible module at your disposal.
   - [Ansible Galaxy](https://galaxy.ansible.com/): Once you start messing around with roles, this is basically a place where Ansible users can share their roles. So, if you want to deploy a basic web server built on RHEL and Apache, there is probably some other user that has created a role for that and shared it through Ansible Galaxy. A primer on Galaxy can be [found here](http://docs.ansible.com/ansible/galaxy.html).
   - [Vagrant Documenation Site](https://www.vagrantup.com/docs/): The site for all Vagrant documentation.
+  - Once you progress to a certain point and want to start doing more complex and impactful things, check out [The Ansible Lockdown Project](https://github.com/ansible/ansible-lockdown), and make some contributions.
