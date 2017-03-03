@@ -1,0 +1,10 @@
+---
+  
+- hosts: all
+  gather_facts: true
+  connection: smart
+  become: true
+
+  tasks:
+    - name: "Ping me"
+      ping:

@@ -11,7 +11,7 @@
 
 <br>
 ##Module 2: Getting to know ansible-playbook
-**Goal**: Use ansible-playbook to run a very simple playbook (p1m2a.yml) against a *single* host.
+**Goal**: Use ansible-playbook to run a very simple playbook (support_files/p1m2.yml) against a *single* host.
 
 **What You Will Learn**: Learn how ansible-playbook works, specifying and using an inventory file, and limiting the playbook run to certain hosts. You will most likely run into the following problems:
   - Not having an inventory specified when you run the playbook.
