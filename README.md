@@ -60,6 +60,13 @@ node.vm.provider "virtualbox" do |vb|
 end
 ```
 
+##How to Contribute
+[This is the best guide I've found](https://github.com/processing/processing/wiki/Contributing-to-Processing-with-Pull-Requests) on how to get started contributing. Basically . . . . 
+1. Fork
+2. Branch
+3. Commit
+4. Submit PR
+
 ##License
 
 MIT
